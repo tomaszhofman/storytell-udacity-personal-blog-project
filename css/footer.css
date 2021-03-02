@@ -1,0 +1,21 @@
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 30px;
+}
+
+.footer-social-items {
+  display: flex;
+}
+
+.footer-social-item {
+  list-style: none;
+  margin-right: 25px;
+}

@@ -1,0 +1,96 @@
+:root {
+  --font-primary: 'Public Sans', sans-serif;
+  --color-grey-light: gray;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 300;
+  line-height: 1.1;
+  color: black;
+  margin-top: 0;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 700px) {
+  h1 {
+    font-size: 5.4rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0.5rem;
+  }
+}
+
+p {
+  margin-top: 0;
+  font-size: 1.8rem;
+  line-height: 3rem;
+
+  font-weight: 400;
+  letter-spacing: 0.001rem;
+}
+
+.category {
+  color: var(--color-grey-light);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+
+.category-main {
+  align-self: end;
+}
+
+.break-line {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.attribution {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution-text {
+  font-size: 9px;
+  color: gray;
+  margin: 0;
+}
