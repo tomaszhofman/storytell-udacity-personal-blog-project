@@ -2,10 +2,7 @@
 @import url(./css/header.css);
 @import url(./css/posts.css);
 @import url(./css/footer.css);
-
-/* mobile layout content */
-
-.flex-main {
+@import url(./blog-post.css) /* mobile layout content */ .flex-main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
