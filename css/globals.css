@@ -67,6 +67,10 @@ p {
   letter-spacing: 0.001rem;
 }
 
+figure {
+  margin: 0;
+}
+
 .blockquote {
   margin-top: 0;
   font-size: 1.8rem;
