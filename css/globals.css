@@ -67,6 +67,14 @@ p {
   letter-spacing: 0.001rem;
 }
 
+.blockquote {
+  margin-top: 0;
+  font-size: 1.8rem;
+  line-height: 3rem;
+
+  font-weight: 400;
+  letter-spacing: 0.001rem;
+}
 .category {
   color: var(--color-grey-light);
   text-transform: uppercase;

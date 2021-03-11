@@ -22,7 +22,6 @@
 .post-image img {
   width: 100%;
   max-width: 1200px;
-  margin-bottom: 3rem;
 }
 
 .info-text-post {
@@ -53,6 +52,16 @@
 
 .author-name {
   font-size: 1.6rem;
+}
+
+.author-btn {
+  border: none;
+  padding: 5px 9px;
+  border-radius: 20px;
+  margin-left: 10px;
+  color: white;
+  background: black;
+  cursor: pointer;
 }
 
 .post-rich-text {
